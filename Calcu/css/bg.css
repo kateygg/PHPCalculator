@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+body {
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 14px;
+	padding: 30px 0;
+	background: #57adaa;
+}
+
+body, a {
+	color: #57adaa;
+}
+
+#wrapper {
+	width: 350px;
+	margin: 0 auto;
+}
+
+#calculator{
+	width: 100%;
+	height: 350px;
+	font-size: 25px;
+}
+
+#calculatorRes{
+	font-size: 36px;
+	width: 300px;
+	padding: 5px;
+	border: solid 1px #91d6d4;
+	background: #91d6d4;
+	color: #9b2c28;
+	margin-bottom: 10px;	
+	float: left;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#CalculatorKeyboard{
+	width: 100%
+	float: left;
+	list-style: none;
+}
+
+#CalculatorKeyboard button{
+	display: block;
+	color: #fff;
+	float: left;
+	padding: 13px 0 0 0;
+	width: 70px;
+	height: 37px;
+	border: solid 1px #111;
+	cursor: pointer;
+	margin: 0 3px 3px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #aa625c;
+}
+
+#calculatorKeyboard button.double {
+	width: 150px;
+}
+#calculatorKeyboard button.operator {
+	background-color: #9b2c28;
+}
+#calculatorKeyboard button.summary {
+	background-color: #9b2c28;
+}
+#calculatorKeyboard button:hover {
+	background-image: none;
+}
+#calculatorKeyboard button.active {
+	background-color: #871615;
+}
+
+
